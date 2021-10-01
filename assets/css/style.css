@@ -1,0 +1,21 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.custom-jumbotron {
+  display: flex;
+  text-align: center;
+  color: whitesmoke;
+}
+
+section {
+    width: 60vw;
+    margin-top:20px
+}
+aside {
+
+}
+
+weather-display-box {
+    width:100%;
+}
