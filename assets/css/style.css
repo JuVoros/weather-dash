@@ -8,5 +8,29 @@
   color: whitesmoke;
 }
 
-
+#city-weather-info{
+    padding-top: 25px;
+    display: block;
+    font-size: larger;
 }
+h3 img{
+    height: 150px;
+    width: 150px;
+}
+
+.green{
+    background-color: rgb(28, 206, 28);
+}
+
+.yellow{
+    background-color: #FFC106;
+}
+
+.red{
+    background-color: rgb(255, 43, 6);
+}
+
+.purple{
+    background-color: rgb(149, 0, 255);
+}
+

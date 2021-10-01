@@ -78,7 +78,6 @@ function getCurrentWeather(city) {
     });
 }
 
-
 // UV INDEX
 function getUvi(latitude, longitude) {
   var currentUviUrl =
@@ -107,12 +106,16 @@ function getUvi(latitude, longitude) {
 
       if (uviData < 3) {
         uviDisplay.setAttribute("id", "uv-favorable");
+        uviDisplay.classList.add("green");
       } else if (uviData < 8) {
         uviDisplay.setAttribute("id", "uv-moderate");
+        uviDisplay.classList.add("yellow");
       } else if (uviData < 11) {
         uviDisplay.setAttribute("id", "uv-severe");
+        uviDisplay.classList.add("red");
       } else if (uviData >= 11) {
         uviDisplay.setAttribute("id", "uv-dangerous");
+        uviDisplay.classList.add("purple");
       }
       cityWeatherInfo.append(createCityUvi);
     });
